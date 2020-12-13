@@ -19,9 +19,8 @@
   #Header:before {
     position: absolute;
     content: url("../img/header/lens-icon.svg");
-    right: 175px;
-    top: 45px;
-    cursor: pointer; }
+    right: 160px;
+    top: 45px; }
 
 .Header-line {
   position: absolute;
