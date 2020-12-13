@@ -25,11 +25,11 @@
 
 2.  Bebas Neue Light - использование:
 
-                .your-style {
-                    font-family: 'Bebas Neue';
-                    font-weight: 300;
-                    font-style: normal;
-                }
+         .your-style {
+             font-family: 'Bebas Neue';
+             font-weight: 300;
+             font-style: normal;
+         }
 
 Универсальный вариант шрифта, так как свойство font-weight может принимать числовые значения, тем самым позволяя
 
@@ -38,11 +38,11 @@
 
 3.  Bebas Neue Book - использование:
 
-                .your-style {
-                    font-family: 'Bebas Neue Book';
-                    font-weight: normal;
-                    font-style: normal;
-                }
+          .your-style {
+              font-family: 'Bebas Neue Book';
+              font-weight: normal;
+              font-style: normal;
+          }
 
 Применяя данный тип шрифта свойство font-weight может принимать только значение NORMAL. Нельзя регулировать толщину 
 
