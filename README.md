@@ -1,7 +1,7 @@
 # Application
 
 
-#  ШРИФТ, ИСПОЛЬЗОВАННЫЙ В ПРОЕКТЕ (fonts.sass, fonts.css)
+#  Шрифт (fonts.sass, fonts.css)
 
 
 ## Использован шрифт BEBAS NEUE.
