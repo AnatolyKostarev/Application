@@ -1,0 +1,78 @@
+#Header
+    position: relative
+    width: 100%
+    height: 726px
+    border: 0
+    background: url('../img/header/header-bcg.jpg') no-repeat center
+        size: cover
+    z-index: 99
+    &:after
+        position: absolute
+        content: ''
+        display: block
+        top: 0
+        bottom: 0
+        width: 100%
+        background-color: #000000
+        opacity: 0.4
+        z-index: -1
+    &:before
+        position: absolute
+        content: url('../img/header/lens-icon.svg')
+        right: 175px
+        top: 45px
+        cursor: pointer
+
+.Header-line
+    position: absolute
+    width: 100%
+    border-bottom: 1px solid #fff
+    opacity: 0.44
+    top: 103px
+
+.Header-logo
+    position: absolute
+    content: url('../img/header/header-logo.png')
+    height: 30px
+    top: 35px
+    left: 13%
+
+.Header-title
+    padding-top: 375px
+    h1
+        position: relative
+        margin:
+            left: auto
+            right: auto
+            bottom: 19px
+        width: 837px
+        height: 47px
+        color: #ffffff
+        font:
+            family: "Open Sans"
+            size: 46px
+            weight: 700
+            style: normal
+        letter-spacing: 2px
+        line-height: normal
+        &:before
+            content: url('../img/header/header-lightning.svg')
+            height: 25px
+            position: absolute
+            bottom: 94px
+            left: calc(50% - 7px)
+
+.Header-subtitle
+    p
+        margin-left: auto
+        margin-right: auto
+        width: 391px
+        height: 16px
+        color: #ffffff
+        font:
+            family: "Open Sans"
+            size: 15px
+            weight: 400
+            style: normal
+        letter-spacing: 3px
+        line-height: normal
