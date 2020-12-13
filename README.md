@@ -10,7 +10,7 @@
 
 Применено три типа данного шрифта:
 
-1. Bebas Neue Bold - использование:
+1       Bebas Neue Bold - использование:
 
         .your-style {
 
@@ -27,7 +27,7 @@
 шрифта с помощью числового значения.
 
 
-2. Bebas Neue Light - использование:
+2       Bebas Neue Light - использование:
 
 .your-style {
 
@@ -44,7 +44,7 @@
 регулировать его толщину.
 
 
-3. Bebas Neue Book - использование:
+3       Bebas Neue Book - использование:
 
 .your-style {
 
