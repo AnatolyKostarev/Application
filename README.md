@@ -12,15 +12,15 @@
 
 1. Bebas Neue Bold - использование:
 
-.your-style {
+        .your-style {
 
-    font-family: 'Bebas Neue';
-    
-    font-weight: bold;
-    
-    font-style: normal;
-    
-}
+            font-family: 'Bebas Neue';
+
+            font-weight: bold;
+
+            font-style: normal;
+
+        }
 
 Применяя данный тип шрифта свойство font-weight может принимать только значение BOLD. Нельзя регулировать толщину 
 
