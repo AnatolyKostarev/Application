@@ -10,7 +10,7 @@
 
 Применено три типа данного шрифта:
 
-1       Bebas Neue Bold - использование:
+1.      Bebas Neue Bold - использование:
 
         .your-style {
 
@@ -27,34 +27,34 @@
 шрифта с помощью числового значения.
 
 
-2       Bebas Neue Light - использование:
+2.      Bebas Neue Light - использование:
 
-.your-style {
+                .your-style {
 
-    font-family: 'Bebas Neue';
-    
-    font-weight: 300;
-    
-    font-style: normal;
-    
-}
+                    font-family: 'Bebas Neue';
+
+                    font-weight: 300;
+
+                    font-style: normal;
+
+                }
 
 Универсальный вариант шрифта, так как свойство font-weight может принимать числовые значения, тем самым позволяя
 
 регулировать его толщину.
 
 
-3       Bebas Neue Book - использование:
+3.      Bebas Neue Book - использование:
 
-.your-style {
+                .your-style {
 
-    font-family: 'Bebas Neue Book';
-    
-    font-weight: normal;
-    
-    font-style: normal;
-    
-}
+                    font-family: 'Bebas Neue Book';
+
+                    font-weight: normal;
+
+                    font-style: normal;
+
+                }
 
 Применяя данный тип шрифта свойство font-weight может принимать только значение NORMAL. Нельзя регулировать толщину 
 
