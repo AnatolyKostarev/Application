@@ -4,7 +4,7 @@
 #  ШРИФТ, ИСПОЛЬЗОВАННЫЙ В ПРОЕКТЕ (fonts.sass, fonts.css)
 
 
-Использован шрифт BEBAS NEUE.
+## Использован шрифт BEBAS NEUE.
 
 Источник - https://webfonts.pro/base-web-fonts/sans-serif-grotesque/216-bebas-neue.html
 
