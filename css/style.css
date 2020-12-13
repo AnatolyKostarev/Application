@@ -1,4 +1,12 @@
 body {
-  background-color: red; }
+  margin: 0;
+  padding: 0;
+  background-color: #373737;
+  font-family: "Bebas Neue", sans-serif;
+  color: #fff; }
+
+h1, h2, h3, h4, h5, p, ul, li {
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
