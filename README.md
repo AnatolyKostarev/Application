@@ -4,10 +4,10 @@
 #  Шрифт (fonts.sass, fonts.css)
 
 
-## BEBAS NEUE BOLD
-## BEBAS NEUE LIGHT
-## BEBAS NEUE BOOK
-## BEBAS NEUE REGULAR
+#### BEBAS NEUE BOLD
+#### BEBAS NEUE LIGHT
+#### BEBAS NEUE BOOK
+#### BEBAS NEUE REGULAR
 
 Источник - https://webfonts.pro/base-web-fonts/sans-serif-grotesque/216-bebas-neue.html
 
