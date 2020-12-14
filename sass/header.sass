@@ -44,7 +44,7 @@
             left: auto
             right: auto
             bottom: 19px
-        width: 837px
+        width: 922px
         height: 47px
         color: #ffffff
         font:
@@ -53,11 +53,10 @@
             weight: 700
             style: normal
         letter-spacing: 2px
-        line-height: normal
         &:before
+            position: absolute
             content: url('../img/header/header-lightning.svg')
             height: 25px
-            position: absolute
             bottom: 94px
             left: calc(50% - 7px)
 
@@ -65,7 +64,7 @@
     p
         margin-left: auto
         margin-right: auto
-        width: 391px
+        width: 398px
         height: 16px
         color: #ffffff
         font:
@@ -75,3 +74,15 @@
             style: normal
         letter-spacing: 3px
         line-height: normal
+        &:before
+            position: absolute
+            content: url('../img/header/header-angle-left.svg')
+            top: calc(50% + 31px)
+            left: 168px
+            cursor: pointer
+        &:after
+            position: absolute
+            content: url('../img/header/header-angle-right.svg')
+            top: calc(50% + 31px)
+            right: 168px
+            cursor: pointer

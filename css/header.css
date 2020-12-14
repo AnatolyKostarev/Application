@@ -43,26 +43,25 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 19px;
-    width: 837px;
+    width: 922px;
     height: 47px;
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 46px;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: 2px;
-    line-height: normal; }
+    letter-spacing: 2px; }
     .Header-title h1:before {
+      position: absolute;
       content: url("../img/header/header-lightning.svg");
       height: 25px;
-      position: absolute;
       bottom: 94px;
       left: calc(50% - 7px); }
 
 .Header-subtitle p {
   margin-left: auto;
   margin-right: auto;
-  width: 391px;
+  width: 398px;
   height: 16px;
   color: #ffffff;
   font-family: "Open Sans";
@@ -71,3 +70,15 @@
   font-style: normal;
   letter-spacing: 3px;
   line-height: normal; }
+  .Header-subtitle p:before {
+    position: absolute;
+    content: url("../img/header/header-angle-left.svg");
+    top: calc(50% + 31px);
+    left: 168px;
+    cursor: pointer; }
+  .Header-subtitle p:after {
+    position: absolute;
+    content: url("../img/header/header-angle-right.svg");
+    top: calc(50% + 31px);
+    right: 168px;
+    cursor: pointer; }
