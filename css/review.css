@@ -1,0 +1,43 @@
+.Review {
+  padding: 98px 0 48px 0;
+  height: 528px;
+  background-color: #fff;
+  font-family: "Open Sans", sans serif;
+  color: #515151; }
+  .Review .col-3 {
+    padding: 0 8px; }
+  .ReviewImage {
+    text-align: center;
+    margin-bottom: 37px; }
+  .ReviewTextTitle {
+    text-align: center;
+    margin-bottom: 28px;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal; }
+  .ReviewTextDescription {
+    text-align: center;
+    margin-bottom: 138px;
+    height: 57px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal; }
+  .ReviewBottomTitle {
+    text-align: center;
+    margin-bottom: 13px;
+    height: 31px;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal; }
+  .ReviewBottomSubtitle {
+    text-align: center;
+    height: 16px;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal; }
+
+/*# sourceMappingURL=review.css.map */
