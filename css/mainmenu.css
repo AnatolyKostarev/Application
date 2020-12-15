@@ -1,3 +1,14 @@
+.Menu {
+  position: relative; }
+  .Menu:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    top: 103px;
+    opacity: 0.44;
+    z-index: 100; }
+
 .MainNavigation {
   position: relative;
   width: 100%;
