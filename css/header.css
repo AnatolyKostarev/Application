@@ -22,13 +22,6 @@
     right: 200px;
     top: 48px; }
 
-.Header-line {
-  position: absolute;
-  width: 100%;
-  border-bottom: 1px solid #fff;
-  opacity: 0.44;
-  top: 103px; }
-
 .Header-logo {
   position: absolute;
   content: url("../img/header/header-logo.png");
