@@ -22,28 +22,31 @@
   #Header:before {
     position: absolute;
     content: url("../img/header/lens-icon.svg");
-    right: 200px;
+    right: 213px;
     top: 48px; }
 
 .Header-logo {
   position: absolute;
-  content: url("../img/header/header-logo.png");
-  height: 30px;
-  top: 38px;
-  left: 11%; }
+  top: 38px; }
+  .Header-logo__main {
+    height: 30px;
+    left: 14%; }
+  .Header-logo__mobile {
+    display: none; }
 
 .Header-title {
-  padding-top: 375px; }
+  padding-top: 380px; }
   .Header-title h1 {
     position: relative;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 19px;
-    width: 922px;
+    width: 872px;
     height: 47px;
     color: #ffffff;
     font-family: "Open Sans";
-    font-size: 46px;
+    font-size: 42px;
     font-weight: 700;
     font-style: normal;
     letter-spacing: 2px; }
