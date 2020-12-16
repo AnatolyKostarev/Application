@@ -1,0 +1,218 @@
+@media screen and (min-width: 1024px) and (max-width: 1199.98px) {
+  .MainNavigation__list {
+    left: 270px; } }
+@media screen and (min-width: 992px) and (max-width: 1023.98px) {
+  .MainNavigation__list {
+    left: 270px; } }
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .MainNavigation__list {
+    left: 60px; }
+
+  .MainNavigation__item {
+    padding: 38px 20px; } }
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .Menu {
+    display: none; } }
+@media screen and (min-width: 425px) and (max-width: 575.98px) {
+  .Menu {
+    display: none; } }
+@media screen and (min-width: 375px) and (max-width: 424.98px) {
+  .Menu {
+    display: none; } }
+@media screen and (min-width: 320px) and (max-width: 374.98px) {
+  .Menu {
+    display: none; } }
+@media screen and (min-width: 1537px) and (max-width: 1920px) {
+  #Header:before {
+    right: 405px; }
+
+  .Header-logo__main {
+    left: 405px; }
+  .Header-subtitle p:before {
+    left: 405px; }
+  .Header-subtitle p:after {
+    right: 405px; } }
+@media screen and (min-width: 1440px) and (max-width: 1535px) {
+  #Header:before {
+    right: 165px; }
+
+  .Header-logo__main {
+    left: 165px; }
+  .Header-subtitle p:before {
+    left: 165px; }
+  .Header-subtitle p:after {
+    right: 165px; } }
+@media screen and (min-width: 1200px) and (max-width: 1439.98px) {
+  #Header:before {
+    right: 45px; }
+
+  .Header-logo__main {
+    left: 45px; }
+  .Header-subtitle p:before {
+    left: 45px; }
+  .Header-subtitle p:after {
+    right: 45px; } }
+@media screen and (min-width: 1024px) and (max-width: 1199.98px) {
+  #Header:before {
+    right: 47px; }
+
+  .Header-logo__main {
+    left: 47px; }
+  .Header-subtitle p:before {
+    left: 47px; }
+  .Header-subtitle p:after {
+    right: 47px; } }
+@media screen and (min-width: 992px) and (max-width: 1023.98px) {
+  #Header:before {
+    right: 31px; }
+
+  .Header-logo__main {
+    left: 31px; }
+  .Header-subtitle p:before {
+    left: 31px; }
+  .Header-subtitle p:after {
+    right: 31px; } }
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  #Header:before {
+    right: 39px; }
+
+  .Header-title {
+    padding-top: 400px; }
+  .Header-logo__main {
+    display: none; }
+  .Header-logo__mobile {
+    position: absolute;
+    display: block;
+    left: 0; }
+  .Header-title h1 {
+    width: 720px;
+    height: 38px;
+    margin-bottom: 0;
+    font-size: 30px;
+    letter-spacing: 1px; }
+  .Header-subtitle p {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px; }
+    .Header-subtitle p:before {
+      left: 39px;
+      top: calc(50% + 44px); }
+    .Header-subtitle p:after {
+      right: 39px;
+      top: calc(50% + 44px); } }
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  #Header:before {
+    right: 33px; }
+
+  .Header-title {
+    padding-top: 430px; }
+  .Header-logo__main {
+    position: absolute;
+    display: block;
+    left: 0; }
+  .Header-logo__mobile {
+    display: none; }
+  .Header-title h1 {
+    width: 530px;
+    height: 38px;
+    margin-bottom: 0;
+    font-size: 24px;
+    letter-spacing: 0px; }
+  .Header-subtitle p {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px; }
+    .Header-subtitle p:before {
+      display: none; }
+    .Header-subtitle p:after {
+      display: none; } }
+@media screen and (min-width: 425px) and (max-width: 575.98px) {
+  #Header:before {
+    right: 15px; }
+
+  .container {
+    width: 425px; }
+
+  .Header-title {
+    padding-top: 430px; }
+  .Header-logo__main {
+    position: absolute;
+    display: block;
+    left: 0; }
+  .Header-logo__mobile {
+    display: none; }
+  .Header-title h1 {
+    width: 395px;
+    height: 38px;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 0px; }
+  .Header-subtitle p {
+    width: 395px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px; }
+    .Header-subtitle p:before {
+      display: none; }
+    .Header-subtitle p:after {
+      display: none; } }
+@media screen and (min-width: 375px) and (max-width: 424.98px) {
+  #Header:before {
+    right: 15px; }
+
+  .container {
+    width: 375px; }
+
+  .Header-title {
+    padding-top: 430px; }
+  .Header-logo__main {
+    position: absolute;
+    display: block;
+    left: 0; }
+  .Header-logo__mobile {
+    display: none; }
+  .Header-title h1 {
+    width: 345px;
+    height: 38px;
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 0px; }
+  .Header-subtitle p {
+    width: 345px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px; }
+    .Header-subtitle p:before {
+      display: none; }
+    .Header-subtitle p:after {
+      display: none; } }
+@media screen and (min-width: 320px) and (max-width: 374.98px) {
+  #Header:before {
+    right: 15px; }
+
+  .container {
+    width: 320px; }
+
+  .Header-title {
+    padding-top: 430px; }
+  .Header-logo__main {
+    position: absolute;
+    display: block;
+    left: 0; }
+  .Header-logo__mobile {
+    display: none; }
+  .Header-title h1 {
+    width: 290px;
+    height: 38px;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 0px; }
+  .Header-subtitle p {
+    width: 290px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px; }
+    .Header-subtitle p:before {
+      display: none; }
+    .Header-subtitle p:after {
+      display: none; } }
