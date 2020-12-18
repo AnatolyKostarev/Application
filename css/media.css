@@ -262,3 +262,21 @@
     margin-bottom: 5px; }
   .ReviewBottomSubtitle {
     font-size: 12px; } }
+@media screen and (max-width: 768px) {
+  .Gallery {
+    display: flex;
+    flex-flow: wrap; }
+    .GalleryWraper {
+      flex-direction: column; } }
+@media screen and (min-width: 576px) and (max-width: 767.68px) {
+  .GalleryWraperPics {
+    width: 576px; }
+  .Gallery .Fotos {
+    width: inherit; } }
+@media screen and (min-width: 425px) and (max-width: 575.98px) {
+  .GalleryWraperPics {
+    width: 425px; }
+  .Gallery .Fotos {
+    width: inherit; } }
+
+/*# sourceMappingURL=media.css.map */

@@ -366,3 +366,29 @@
 
 //Конец медиазпросов блока REVIEW
 
+//Начало медиазапросов блока GALLERY
+@media screen and (max-width: 768px)
+    .Gallery
+        display: flex
+        flex-flow: wrap
+        &Wraper
+            flex-direction: column
+
+@media screen and (min-width: 576px) and (max-width: 767.68px)
+    .Gallery
+        &Wraper
+            &Pics
+                width: 576px
+        .Fotos
+            width: inherit
+
+@media screen and (min-width: 425px) and (max-width: 575.98px)
+    .Gallery
+        &Wraper
+            &Pics
+                width: 425px
+        .Fotos
+            width: inherit
+
+//Конец медиазпросов блока GALLERY
+
