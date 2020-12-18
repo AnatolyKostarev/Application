@@ -216,3 +216,49 @@
       display: none; }
     .Header-subtitle p:after {
       display: none; } }
+@media screen and (max-width: 1024px) {
+  .Review {
+    padding: 52px 0 25px 0; } }
+@media screen and (max-width: 768px) {
+  .Review {
+    padding: 40px 0 20px 0; }
+    .ReviewText {
+      margin-bottom: 84px; }
+      .ReviewTextDescription {
+        text-align: justify; } }
+@media screen and (max-width: 576px) {
+  .ReviewBottomTitle {
+    font-size: 28px; } }
+@media screen and (min-width: 425px) and (max-width: 575.98px) {
+  .Review {
+    padding: 30px 0 20px 0; }
+    .ReviewImage {
+      margin-bottom: 28px; }
+    .ReviewText {
+      margin-bottom: 60px; }
+    .ReviewBottomTitle {
+      font-size: 22px;
+      margin-top: 70px;
+      margin-bottom: 8px; }
+    .ReviewBottomSubtitle {
+      font-size: 14px; } }
+@media screen and (min-width: 375px) and (max-width: 424.98px) {
+  .Review {
+    padding: 30px 0 20px 0; }
+    .ReviewImage {
+      margin-bottom: 28px; }
+    .ReviewText {
+      margin-bottom: 50px; }
+    .ReviewBottomTitle {
+      font-size: 18px;
+      margin-top: 50px;
+      margin-bottom: 5px; }
+    .ReviewBottomSubtitle {
+      font-size: 12px; } }
+@media screen and (min-width: 320px) and (max-width: 374.98px) {
+  .ReviewBottomTitle {
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 5px; }
+  .ReviewBottomSubtitle {
+    font-size: 12px; } }
