@@ -1,12 +1,15 @@
+.col-3 {
+  padding: 0 8px; }
+
 .Review {
-  padding: 98px 0 48px 0;
-  height: 528px;
+  padding: 78px 0 38px 0;
   background-color: #fff;
   font-family: "Open Sans", sans serif;
   color: #515151; }
-  .Review .col-3 {
-    padding: 0 8px; }
+  .ReviewText {
+    margin-bottom: 110px; }
   .ReviewImage {
+    max-height: 32px;
     text-align: center;
     margin-bottom: 37px; }
   .ReviewTextTitle {
@@ -18,8 +21,6 @@
     letter-spacing: normal; }
   .ReviewTextDescription {
     text-align: center;
-    margin-bottom: 138px;
-    height: 57px;
     font-size: 14px;
     font-weight: 300;
     font-style: normal;
