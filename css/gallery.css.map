@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,cAAO;EACH,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,CAAC;EACd,mBAAM;IACF,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,CAAC;EACb,qBAAM;IACF,SAAS,EAAE,IAAI;IACf,MAAM,EAAE,IAAI;IACZ,UAAU,EAAE,KAAK",
+"sources": ["../sass/gallery.sass"],
+"names": [],
+"file": "gallery.css"
+}
