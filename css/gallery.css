@@ -10,10 +10,10 @@
       height: auto;
       object-fit: cover; }
 
-a {
+.AnchorPics {
   display: block;
   position: relative; }
-  a span {
+  .AnchorPics span {
     position: absolute;
     top: 50%;
     left: calc(50% - 122px);
@@ -23,7 +23,7 @@ a {
     color: #fff;
     display: block;
     z-index: 99; }
-  a::after {
+  .AnchorPics::after {
     content: "";
     position: absolute;
     top: 0;
@@ -33,7 +33,7 @@ a {
     background-color: #06769f;
     transition: 0.6s;
     opacity: 0; }
-  a::before {
+  .AnchorPics::before {
     content: "";
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@ a {
     right: 0;
     bottom: 0;
     opacity: 0; }
-  a:hover:before, a:hover:after {
+  .AnchorPics:hover:before, .AnchorPics:hover:after {
     transition: 0.3s;
     opacity: 0.45; }
 

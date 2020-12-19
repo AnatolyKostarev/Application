@@ -263,15 +263,15 @@
   .ReviewBottomSubtitle {
     font-size: 12px; } }
 @media screen and (min-width: 1200px) and (max-width: 1439.98px) {
-  a span {
+  .AnchorPics span {
     font-size: 14px;
     left: calc(50% - 102px); } }
 @media screen and (min-width: 1024px) and (max-width: 1199.98px) {
-  a span {
+  .AnchorPics span {
     font-size: 13px;
     left: calc(50% - 95px); } }
 @media screen and (min-width: 992px) and (max-width: 1023.98px) {
-  a span {
+  .AnchorPics span {
     font-size: 12px;
     left: calc(50% - 87px); } }
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -281,7 +281,7 @@
     .GalleryWraper {
       flex-direction: column; }
 
-  a span {
+  .AnchorPics span {
     font-size: 16px;
     left: calc(50% - 116px); } }
 @media screen and (min-width: 576px) and (max-width: 767.68px) {
@@ -293,7 +293,7 @@
     .Gallery .Fotos {
       width: 576px; }
 
-  a span {
+  .AnchorPics span {
     font-size: 16px;
     left: calc(50% - 116px); } }
 @media screen and (min-width: 425px) and (max-width: 575.98px) {
@@ -305,7 +305,7 @@
     .Gallery .Fotos {
       width: 425px; }
 
-  a span {
+  .AnchorPics span {
     font-size: 16px;
     left: calc(50% - 116px); } }
 @media screen and (min-width: 375px) and (max-width: 424.98px) {
@@ -317,7 +317,7 @@
     .Gallery .Fotos {
       width: 375px; }
 
-  a span {
+  .AnchorPics span {
     font-size: 16px;
     left: calc(50% - 116px); } }
 @media screen and (min-width: 320px) and (max-width: 374.98px) {
@@ -329,7 +329,7 @@
     .Gallery .Fotos {
       width: 320px; }
 
-  a span {
+  .AnchorPics span {
     font-size: 16px;
     left: calc(50% - 116px); } }
 
