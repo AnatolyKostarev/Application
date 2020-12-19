@@ -368,28 +368,88 @@
 //Конец медиазпросов блока REVIEW
 
 //Начало медиазапросов блока GALLERY
-@media screen and (max-width: 768px)
+
+@media screen and (min-width: 1200px) and (max-width: 1439.98px)
+    a
+        span
+            font-size: 14px
+            left: calc(50% - 102px)
+
+@media screen and (min-width: 1024px) and (max-width: 1199.98px)
+    a
+        span
+            font-size: 13px
+            left: calc(50% - 95px)
+
+@media screen and (min-width: 992px) and (max-width: 1023.98px)
+    a
+        span
+            font-size: 12px
+            left: calc(50% - 87px)
+
+@media screen and (min-width: 768px) and (max-width: 991.98px)
     .Gallery
         display: flex
         flex-flow: wrap
         &Wraper
             flex-direction: column
 
+    a
+        span
+            font-size: 16px
+            left: calc(50% - 116px)
+
 @media screen and (min-width: 576px) and (max-width: 767.68px)
     .Gallery
+        display: flex
+        flex-flow: wrap
         &Wraper
-            &Pics
-                width: 576px
+            flex-direction: column
         .Fotos
-            width: inherit
+            width: 576px
+    a
+        span
+            font-size: 16px
+            left: calc(50% - 116px)
 
 @media screen and (min-width: 425px) and (max-width: 575.98px)
     .Gallery
+        display: flex
+        flex-flow: wrap
         &Wraper
-            &Pics
-                width: 425px
+            flex-direction: column
         .Fotos
-            width: inherit
+            width: 425px
+    a
+        span
+            font-size: 16px
+            left: calc(50% - 116px)
+
+@media screen and (min-width: 375px) and (max-width: 424.98px)
+    .Gallery
+        display: flex
+        flex-flow: wrap
+        &Wraper
+            flex-direction: column
+        .Fotos
+            width: 375px
+    a
+        span
+            font-size: 16px
+            left: calc(50% - 116px)
+
+@media screen and (min-width: 320px) and (max-width: 374.98px)
+    .Gallery
+        display: flex
+        flex-flow: wrap
+        &Wraper
+            flex-direction: column
+        .Fotos
+            width: 320px
+    a
+        span
+            font-size: 16px
+            left: calc(50% - 116px)
 
 //Конец медиазпросов блока GALLERY
 
