@@ -1,0 +1,175 @@
+#Goods {
+  background: #fff;
+  padding: 110px 0 45px 0; }
+
+.GoodsText__title {
+  position: relative;
+  color: #515151;
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 46px;
+  margin-left: 18px; }
+  .GoodsText__title::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 38px;
+    background-color: #5ac8fb;
+    left: -18px;
+    top: -9px; }
+.GoodsText__subtitle {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+  color: #515151;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin-bottom: 41px; }
+.GoodsText__items {
+  position: relative;
+  color: #515151;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: left;
+  margin-left: 18px;
+  list-style: none; }
+  .GoodsText__items::before {
+    position: absolute;
+    content: "";
+    background: url("../img/goods/fa-angle-right_copy.png") no-repeat;
+    background-size: contain;
+    width: 8px;
+    height: 13px;
+    top: 7px;
+    left: -16px; }
+
+@media screen and (min-width: 1024px) and (max-width: 1199.98px) {
+  .GoodsText__title {
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 40px; }
+    .GoodsText__title::before {
+      height: 32px;
+      top: -7px; }
+  .GoodsText__subtitle {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 24px; }
+  .GoodsText__items {
+    font-size: 14px;
+    line-height: 23px; } }
+@media screen and (min-width: 992px) and (max-width: 1023.98px) {
+  .GoodsText__title {
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 40px; }
+    .GoodsText__title::before {
+      height: 30px;
+      top: -6px; }
+  .GoodsText__subtitle {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 24px; }
+  .GoodsText__items {
+    font-size: 14px;
+    line-height: 23px; } }
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
+  #Goods {
+    padding-top: 80px; }
+
+  .GoodsPic {
+    margin-bottom: 25px; }
+    .GoodsPic__device {
+      width: 510px; } }
+@media screen and (min-width: 425px) and (max-width: 575.98px) {
+  #Goods {
+    padding: 70px 0 40px 0; }
+
+  .GoodsPic {
+    margin-bottom: 25px; }
+    .GoodsPic__device {
+      width: 395px; }
+
+  .GoodsText__title {
+    font-size: 19px;
+    line-height: 16px;
+    margin-bottom: 36px; }
+    .GoodsText__title::before {
+      height: 30px;
+      top: -6px; }
+  .GoodsText__subtitle {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 28px; }
+  .GoodsText__items {
+    font-size: 14px;
+    line-height: 24px; }
+    .GoodsText__items::before {
+      height: 12px;
+      top: 6px; } }
+@media screen and (min-width: 375px) and (max-width: 424.98px) {
+  #Goods {
+    padding: 60px 0 35px 0; }
+
+  .GoodsPic {
+    margin-bottom: 25px; }
+    .GoodsPic__device {
+      width: 345px; }
+
+  .GoodsText__title {
+    font-size: 17px;
+    line-height: 16px;
+    margin-bottom: 36px; }
+    .GoodsText__title::before {
+      height: 30px;
+      top: -6px; }
+  .GoodsText__subtitle {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 28px; }
+  .GoodsText__items {
+    font-size: 14px;
+    line-height: 24px; }
+    .GoodsText__items::before {
+      height: 12px;
+      top: 6px; } }
+@media screen and (min-width: 320px) and (max-width: 374.98px) {
+  #Goods {
+    padding: 60px 0 35px 0; }
+
+  .GoodsPic {
+    margin-bottom: 25px; }
+    .GoodsPic__device {
+      width: 290px; }
+
+  .GoodsText__title {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 36px; }
+    .GoodsText__title::before {
+      height: 38px;
+      top: -3px; }
+  .GoodsText__subtitle {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 28px; }
+  .GoodsText__items {
+    font-size: 14px;
+    line-height: 24px; }
+    .GoodsText__items::before {
+      height: 12px;
+      top: 7px; } }
