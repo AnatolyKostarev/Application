@@ -1,12 +1,48 @@
 .GalleryWraper {
   display: flex;
   line-height: 0; }
-  .GalleryWraper.Pics {
+  .GalleryWraperPics {
+    position: relative;
     width: 100%;
     margin: 0; }
-  .GalleryWraper .Fotos {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover; }
+    .GalleryWraperPics .Fotos {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover; }
+
+a {
+  display: block;
+  position: relative; }
+  a span {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 122px);
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    z-index: 99; }
+  a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #06769f;
+    transition: 0.6s;
+    opacity: 0; }
+  a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; }
+  a:hover:before, a:hover:after {
+    transition: 0.3s;
+    opacity: 0.45; }
 
 /*# sourceMappingURL=gallery.css.map */
