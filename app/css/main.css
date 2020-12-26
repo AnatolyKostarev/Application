@@ -1,9 +1,13 @@
 body {
-  background-color: blue; }
+  background-color: pink; }
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px; }
 
 p {
-  text-align: center;
+  text-align: justify;
   text-transform: uppercase;
   text-decoration: underline;
-  font-size: 36px;
+  font-size: 16px;
   font-weight: bold; }
