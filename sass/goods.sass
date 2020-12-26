@@ -1,0 +1,191 @@
+#Goods
+    background: #fff
+    padding: 110px 0 45px 0
+
+.GoodsText
+    &__title
+        position: relative
+        color: #515151
+        font:
+            family: "Open Sans"
+            size: 23px
+            weight: 300
+            style: normal
+        letter-spacing: normal
+        line-height: 21px
+        text-align: left
+        margin:
+            bottom: 46px
+            left: 18px
+        &::before
+            position: absolute
+            content: ''
+            width: 3px
+            height: 38px
+            background-color: #5ac8fb
+            left: -18px
+            top: -9px
+    &__subtitle
+        overflow: hidden
+        white-space: nowrap
+        text:
+            overflow: ellipsis
+            align: left
+        color: #515151
+        font:
+            family: "Open Sans"
+            size: 15px
+            weight: 300
+            style: normal
+        letter-spacing: normal
+        line-height: 24px
+        margin:
+            bottom: 41px
+    &__items
+        position: relative
+        color: #515151
+        font:
+            size: 15px
+            weight: 300
+            style: normal
+        letter-spacing: normal
+        line-height: 28px
+        text-align: left
+        margin-left: 18px
+        list-style: none
+        &::before
+            position: absolute
+            content: ''
+            background: url('../img/goods/fa-angle-right_copy.png') no-repeat
+            background-size: contain
+            width: 8px
+            height: 13px
+            top: 7px
+            left: -16px
+
+//Начало медиазапросов
+
+@media screen and (min-width: 1024px) and (max-width: 1199.98px)
+    .GoodsText
+        &__title
+            font-size: 18px
+            line-height: 16px
+            margin-bottom: 40px
+            &::before
+                height: 32px
+                top: -7px
+        &__subtitle
+            font-size: 14px
+            line-height: 22px
+            margin-bottom: 24px
+        &__items
+            font-size: 14px
+            line-height: 23px
+        
+@media screen and (min-width: 992px) and (max-width: 1023.98px)
+    .GoodsText
+        &__title
+            font-size: 18px
+            line-height: 16px
+            margin-bottom: 40px
+            &::before
+                height: 30px
+                top: -6px
+        &__subtitle
+            font-size: 14px
+            line-height: 22px
+            margin-bottom: 24px
+        &__items
+            font-size: 14px
+            line-height: 23px
+
+@media screen and (min-width: 576px) and (max-width: 991.98px)
+    #Goods
+        padding: 60px 0 17px 0
+    .GoodsPic
+        margin-bottom: 25px
+        &__device
+            width: 510px    
+
+@media screen and (min-width: 425px) and (max-width: 575.98px)
+    #Goods
+        padding: 70px 0 0 0
+    .GoodsPic
+        margin-bottom: 25px
+        &__device
+            width: 395px  
+    .GoodsText
+        &__title
+            font-size: 19px
+            line-height: 16px
+            margin-bottom: 36px
+            &::before
+                height: 30px
+                top: -6px  
+        &__subtitle
+            font-size: 14px
+            line-height: 22px
+            margin-bottom: 28px
+        &__items
+            font-size: 14px
+            line-height: 24px
+            &::before
+                height: 12px
+                top: 6px
+@media screen and (min-width: 375px) and (max-width: 424.98px)
+    #Goods
+        padding: 60px 0 0 0
+    .GoodsPic
+        margin-bottom: 25px
+        &__device
+            width: 345px
+
+    .GoodsText
+        &__title
+            font-size: 17px
+            line-height: 16px
+            margin-bottom: 36px
+            &::before
+                height: 30px
+                top: -6px  
+        &__subtitle
+            font-size: 14px
+            line-height: 22px
+            margin-bottom: 28px
+        &__items
+            font-size: 14px
+            line-height: 24px
+            &::before
+                height: 12px
+                top: 6px  
+
+@media screen and (min-width: 320px) and (max-width: 374.98px)
+    #Goods
+        padding: 60px 0 35px 0
+    .GoodsPic
+        margin-bottom: 25px
+        &__device
+            width: 290px
+
+    .GoodsText
+        &__title
+            font:
+                size: 17px
+                weight: 600
+            line-height: 16px
+            margin-bottom: 36px
+            &::before
+                height: 38px
+                top: -3px  
+        &__subtitle
+            font-size: 14px
+            line-height: 22px
+            margin-bottom: 28px
+        &__items
+            font-size: 14px
+            line-height: 24px
+            &::before
+                height: 12px
+                top: 7px  
+
+//Конец медиазапросов

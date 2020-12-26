@@ -1,0 +1,48 @@
+.GalleryWraper {
+  display: flex;
+  line-height: 0; }
+  .GalleryWraperPics {
+    position: relative;
+    width: 100%;
+    margin: 0; }
+    .GalleryWraperPics .Fotos {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover; }
+
+.AnchorPics {
+  display: block;
+  position: relative; }
+  .AnchorPics span {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 122px);
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    z-index: 99; }
+  .AnchorPics::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #06769f;
+    transition: 0.6s;
+    opacity: 0; }
+  .AnchorPics::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; }
+  .AnchorPics:hover:before, .AnchorPics:hover:after {
+    transition: 0.3s;
+    opacity: 0.45; }
+
+/*# sourceMappingURL=gallery.css.map */

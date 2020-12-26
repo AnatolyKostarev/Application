@@ -1,1 +1,51 @@
+.Gallery
+    &Wraper
+        display: flex
+        line-height: 0
+        &Pics
+            position: relative
+            width: 100%
+            margin: 0
+            .Fotos
+                max-width: 100%
+                height: auto
+                object-fit: cover
 
+
+    
+.AnchorPics
+    display: block
+    position: relative
+    span
+        position: absolute
+        top: 50%
+        left: calc(50% - 122px)
+        font:
+            family: 'Open Sans'
+            weight: 300
+            size: 16px
+        color: #fff
+        display: block
+        z-index: 99
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background-color: #06769f
+        transition: 0.6s
+        opacity: 0
+    &::before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        opacity: 0
+    &:hover:before,
+    &:hover:after
+        transition: 0.3s
+        opacity: 0.45

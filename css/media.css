@@ -226,7 +226,7 @@
       margin-bottom: 84px; }
       .ReviewTextDescription {
         text-align: justify; } }
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
   .ReviewBottomTitle {
     font-size: 28px; } }
 @media screen and (min-width: 425px) and (max-width: 575.98px) {
@@ -262,3 +262,75 @@
     margin-bottom: 5px; }
   .ReviewBottomSubtitle {
     font-size: 12px; } }
+@media screen and (min-width: 1200px) and (max-width: 1439.98px) {
+  .AnchorPics span {
+    font-size: 14px;
+    left: calc(50% - 102px); } }
+@media screen and (min-width: 1024px) and (max-width: 1199.98px) {
+  .AnchorPics span {
+    font-size: 13px;
+    left: calc(50% - 95px); } }
+@media screen and (min-width: 992px) and (max-width: 1023.98px) {
+  .AnchorPics span {
+    font-size: 12px;
+    left: calc(50% - 87px); } }
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .Gallery {
+    display: flex;
+    flex-flow: wrap; }
+    .GalleryWraper {
+      flex-direction: column; }
+
+  .AnchorPics span {
+    font-size: 16px;
+    left: calc(50% - 116px); } }
+@media screen and (min-width: 576px) and (max-width: 767.68px) {
+  .Gallery {
+    display: flex;
+    flex-flow: wrap; }
+    .GalleryWraper {
+      flex-direction: column; }
+    .Gallery .Fotos {
+      width: 576px; }
+
+  .AnchorPics span {
+    font-size: 16px;
+    left: calc(50% - 116px); } }
+@media screen and (min-width: 425px) and (max-width: 575.98px) {
+  .Gallery {
+    display: flex;
+    flex-flow: wrap; }
+    .GalleryWraper {
+      flex-direction: column; }
+    .Gallery .Fotos {
+      width: 425px; }
+
+  .AnchorPics span {
+    font-size: 16px;
+    left: calc(50% - 116px); } }
+@media screen and (min-width: 375px) and (max-width: 424.98px) {
+  .Gallery {
+    display: flex;
+    flex-flow: wrap; }
+    .GalleryWraper {
+      flex-direction: column; }
+    .Gallery .Fotos {
+      width: 375px; }
+
+  .AnchorPics span {
+    font-size: 16px;
+    left: calc(50% - 116px); } }
+@media screen and (min-width: 320px) and (max-width: 374.98px) {
+  .Gallery {
+    display: flex;
+    flex-flow: wrap; }
+    .GalleryWraper {
+      flex-direction: column; }
+    .Gallery .Fotos {
+      width: 320px; }
+
+  .AnchorPics span {
+    font-size: 16px;
+    left: calc(50% - 116px); } }
+
+/*# sourceMappingURL=media.css.map */
